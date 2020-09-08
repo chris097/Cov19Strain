@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+html,
+body{
+  height: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    min-width: 300px;
+    overflow-x: hidden;
+    /*overflow-y: scroll; */
+    text-rendering: auto;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    z-index: 2;
+}
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+  }
+  
+  body {
+      background-color: #E5E5E5;
+      font-family: "Fira Sans", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      font-size: 1rem;
+      font-family: Rubik;
+      cursor: pointer;
+      position: relative;
+    }

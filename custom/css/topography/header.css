@@ -1,0 +1,126 @@
+.covid19-app-header{
+    width: 100%;
+    height: 79px;
+    position: fixed;
+    padding: 13px 0;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+.cov19-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.cov19-navlink{
+    display: flex;
+}
+.cov19-logo{
+    margin-top: 4px;
+}
+.cov19-logo > span{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2B6FF3;
+}
+.cov19-links{
+    margin-left: 15vw;
+    margin-top: 3px;
+}
+.cov19-links ul{
+    display: flex;
+}
+.cov19-links ul li{
+    margin: 0 15px;
+}
+.cov19-links ul li a:hover{
+    color: #2B6FF3;
+}
+.cov19-date{
+    background: rgba(196, 196, 196, 0.12);
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 12px 10px;
+}
+.cov19-date span{
+    color: #5F6368;
+}
+@media screen and (max-width: 500px){
+    .cov19-column,
+    .sectionB-container,
+    .footer .footer-content,
+    .cov19-navbar{
+        flex-direction: column;
+        flex: 1;
+    }
+    .covid19-app-header{
+        height: 120px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    }
+    .sectionB-container .cov19-countries{
+        width: 100% !important;
+    }
+    .sectionB-container > .cov19-map img{
+        width: 100%;
+    }
+    .cov19-prevent{
+        margin-top: 150px !important;
+    }
+    .cov19-prevent-content .cov19-prevent-tittle {
+        width: 100%;
+    }
+    .cov19-prevent-img img,
+    .cov19-links{
+        display: none;
+    }
+    .footer .footer-col-2{
+        margin: 0;
+    }
+    .footer{
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .footer-col-1 .cov19-logo > span,
+    .symptoms-img img{
+        display: none;
+    }
+    .cov19-prevent-cards .prevent-cards{
+        width: 60%;
+        margin: 0 2px;
+        padding: 0 3px;
+    }
+    .column-1 .symptoms-text{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .column-1 .symptoms-text > p{
+        width: 100%;
+    }
+    .cov19-info{
+        margin-top: 35px;
+    }
+    .container .cov19-sectionA{
+        padding-top: 130px;
+    }
+    .cov19-column .cov19-col-1,
+    .cov19-column .cov19-col-3,
+    .cov19-column .cov19-col-5{
+        margin-bottom: 70px;
+        margin-left: 0;
+    }
+    .cov19-column .cov19-col-2,
+    .cov19-column .cov19-col-6,
+    .cov19-column .cov19-col-4{
+        margin-left: 14.8%;
+    }
+}

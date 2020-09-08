@@ -1,0 +1,33 @@
+.footer{
+    background: #FFFFFF;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 100%;
+    z-index: 2;
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col-1 > h1{
+    color: #2B6FF3;
+    font-size: 20px;
+}
+.footer-col-1{
+    width: 100%;
+}
+.footer-col-2{
+    width: 100%;
+    color: #2B6FF3;
+    margin-left: 100px;
+}
+.footer-col-2 li{
+    margin: 10px 0;
+}
+.footer-col-2 > h1{
+    color: #2B6FF3;
+    font-size: 20px; 
+}
