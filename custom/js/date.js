@@ -1,4 +1,2 @@
-// import {engine} from "./engine.js"
+export const date = new Date()
 
-// const date = new Date().toUTCString()
-// engine(kovidDate, date)

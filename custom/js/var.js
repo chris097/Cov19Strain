@@ -5,5 +5,6 @@ export let totalCase = document.querySelector('.cov19-totalCase'),
     newComfirmed = document.querySelector('.cov19-newComfirmed'),
     newRecoverd = document.querySelector('.cov19-newCase'),
     newDeaths = document.querySelector('.cov19-newDeath'),
-    newActive = document.querySelector('.cov19-newActive')
+    newActive = document.querySelector('.cov19-newActive'),
+    newDate = document.querySelector('.cov19-date span')
     

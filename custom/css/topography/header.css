@@ -52,7 +52,6 @@
     color: #5F6368;
 }
 @media screen and (max-width: 500px){
-    .cov19-column,
     .sectionB-container,
     .footer .footer-content,
     .cov19-navbar{
@@ -122,5 +121,24 @@
     .cov19-column .cov19-col-6,
     .cov19-column .cov19-col-4{
         margin-left: 14.8%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .sectionB-container > .cov19-map img,
+    .symptoms-img img{
+        display: none;
+    }
+    .cov19-prevent,
+    .cov19-column,
+    .cov19-sectionC .column-1{
+        flex-direction: column;
+        flex: 1;
+    }
+    .cov19-sectionC{
+        margin-top:5px !important;
+    }
+    .column-1 .symptoms-text{
+        margin-top: 50px;
     }
 }
