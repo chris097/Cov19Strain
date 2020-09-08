@@ -53,7 +53,6 @@
 }
 @media screen and (max-width: 500px){
     .sectionB-container,
-    .footer .footer-content,
     .cov19-navbar{
         flex-direction: column;
         flex: 1;
@@ -81,15 +80,6 @@
     .cov19-links{
         display: none;
     }
-    .footer .footer-col-2{
-        margin: 0;
-    }
-    .footer{
-        text-align: center;
-        justify-items: center;
-        justify-content: center;
-    }
-    .footer-col-1 .cov19-logo > span,
     .symptoms-img img{
         display: none;
     }
@@ -121,6 +111,24 @@
     .cov19-column .cov19-col-6,
     .cov19-column .cov19-col-4{
         margin-left: 14.8%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .footer .footer-content{
+        flex-direction: column;
+        flex: 1;
+    }
+    .footer .footer-col-2{
+        margin: 0;
+    }
+    .footer{
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .footer-col-1 .cov19-logo > span{
+        display: none;
     }
 }
 
