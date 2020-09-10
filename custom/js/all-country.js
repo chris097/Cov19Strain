@@ -22,12 +22,15 @@ let coverage = document.querySelector('.coverage')
     })
 
 function getCountries(country){
+    let sorted = country.sort((a,b) => {
+        return b.TotalConfirmed - a.TotalConfirmed
+    })
 
-    const mapped = country.map(el => {
+    const mapped = sorted.map(el => {
         return `
             <div class="column" id="column">
                 <li class="column">
-                    <div class="country-flag"><img src="./custom/img/🇺🇸a-flag.svg" alt=""></div>
+                    <div class="country-flag">${el.CountryCode}</div>
                     <div class="country-name">${el.Country}</div>
                 </li>
                 <li class="cov19-figure">${el.TotalConfirmed}</li>
