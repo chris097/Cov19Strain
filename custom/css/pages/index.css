@@ -32,7 +32,7 @@
 }
 .cov19-column{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background: #FFFFFF;
     box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
     padding: 40px 20px;
@@ -43,15 +43,15 @@
     height: 150px;
     background-color: rgba(43, 111, 243, 0.05);
     position: relative;
+    padding: 0 30px;
 }
 .cov19-col-2{
     background-color: rgba(43, 111, 243, 0.05);
     clip-path: circle();
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: sticky;
     margin-top: -25px;
-    margin-left: 33.5px;
 }
 .cov19-col-3{
     width: 100%;
@@ -59,15 +59,15 @@
     background-color: rgba(243, 153, 17, 0.05);
     position: relative;
     margin: 0 10px;
+    padding: 0 30px;
 }
 .cov19-col-4{
     background-color: rgba(243, 153, 17, 0.05);
     clip-path: circle();
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: sticky;
     margin-top: -25px;
-    margin-left: 33.5px;
 }
 .cov19-col-5{
     width: 100%;
@@ -75,30 +75,30 @@
     background-color: rgba(22, 180, 66, 0.05);
     position: relative;
     margin-right: 10px;
+    padding: 0 30px;
 }
 .cov19-col-6{
     background-color:rgba(22, 180, 66, 0.05);
     clip-path: circle();
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: sticky; 
     margin-top: -25px;
-    margin-left: 33.5px;
 }
 .cov19-col-7{
     width: 100%;
     height: 150px;
     background-color: rgba(170, 42, 42, 0.05);
     position: relative;
+    padding: 0 30px;
 }
 .cov19-col-8{
     background-color: rgba(170, 42, 42, 0.05);
     clip-path: circle();
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: sticky;
     margin-top: -25px;
-    margin-left: 33.5px;
 }
 .cov19-content{
     padding-top: 30px;
@@ -343,6 +343,11 @@
     padding: 5px 10px;
     margin: 5px 10px;
 }
+.column-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 

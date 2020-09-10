@@ -52,17 +52,9 @@
     color: #5F6368;
 }
 @media screen and (max-width: 500px){
-    .sectionB-container,
-    .cov19-navbar{
+    .sectionB-container{
         flex-direction: column;
         flex: 1;
-    }
-    .covid19-app-header{
-        height: 120px;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        align-self: center;
     }
     .sectionB-container .cov19-countries{
         width: 100% !important;
@@ -101,12 +93,6 @@
     .container .cov19-sectionA{
         padding-top: 130px;
     }
-    .cov19-column .cov19-col-1,
-    .cov19-column .cov19-col-3,
-    .cov19-column .cov19-col-5{
-        margin-bottom: 70px;
-        margin-left: 0;
-    }
     .cov19-column .cov19-col-2,
     .cov19-column .cov19-col-6,
     .cov19-column .cov19-col-4{
@@ -132,13 +118,86 @@
     }
 }
 
+@media screen and (max-width: 320px){
+    .cov19-col-2,
+    .cov19-col-4,
+    .cov19-col-6,
+    .cov19-col-8{
+        padding-left: 2% !important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .cov19-column .cov19-col-2,
+    .cov19-column .cov19-col-4,
+    .cov19-column .cov19-col-6,
+    .cov19-column .cov19-col-8{
+        right: 13px !important;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 450px){
+    .cov19-column .cov19-col-2,
+    .cov19-column .cov19-col-4,
+    .cov19-column .cov19-col-6,
+    .cov19-column .cov19-col-8{
+        right: 26.5px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .column-flex{
+        flex-direction: column;
+        flex: 1;
+    }
+    .cov19-navbar{
+        flex-direction: column;
+        flex: 1;
+    }
+    .covid19-app-header{
+        height: 120px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    }
+    .cov19-column .cov19-col-1,
+    .cov19-column .cov19-col-3,
+    .cov19-column .cov19-col-5{
+        margin-bottom: 70px;
+        margin-left: 0;
+    }
+        .cov19-col-2,
+        .cov19-col-4,
+        .cov19-col-6,
+        .cov19-col-8{
+            margin-left: 26.5% !important;
+        }
+}
+
+@media screen and (max-width: 1196px){
+    .cov19-column{
+        flex-direction: column;
+        flex: 1;
+    }
+    .cov19-col-1{
+        margin-bottom: 80px;
+    }
+    .cov19-col-2,
+    .cov19-col-4,
+    .cov19-col-6,
+    .cov19-col-8{
+        margin: 0 10%;
+    }
+}
+
 @media screen and (max-width: 1000px){
     .sectionB-container > .cov19-map img,
     .symptoms-img img{
         display: none;
     }
     .cov19-prevent,
-    .cov19-column,
     .cov19-sectionC .column-1{
         flex-direction: column;
         flex: 1;
@@ -149,4 +208,7 @@
     .column-1 .symptoms-text{
         margin-top: 50px;
     }
+    .cov19-prevent-cards{
+    justify-content: center;
+}
 }
