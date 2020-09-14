@@ -28,9 +28,9 @@ function getCountries(country){
 
     const mapped = sorted.map(el => {
         return `
-            <div class="column" id="column">
+            <div class="column" id="column" value="sg">
                 <li class="column">
-                    <div class="country-flag">${el.CountryCode}</div>
+                    <div class="country-flag"><img src="./custom/img/🇺🇸a-flag.svg" alt=""></div>
                     <div class="country-name">${el.Country}</div>
                 </li>
                 <li class="cov19-figure">${el.TotalConfirmed}</li>
